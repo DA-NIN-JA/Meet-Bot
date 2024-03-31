@@ -14,7 +14,7 @@
   <h3 align="center">A Zoom Clone</h3>
 
    <div align="center">
-     This is a project by [Dhairya Arora](https://github.com/DA-NIN-JA), [Khagesh Sharma](https://github.com/khagesh2409), [Shaurya Gupta](https://github.com/CodebyShaurya), and [Abhay Dixit](https://github.com/abhaydixit07).
+     This is a project by <a href="https://github.com/DA-NIN-JA">Dhairya Arora</a>, <a href="https://github.com/khagesh2409">Khagesh Sharma</a>, <a href="https://github.com/CodebyShaurya">Shaurya Gupta</a>, and <a href="https://github.com/abhaydixit07">Abhay Dixit</a>.
     </div>
 </div>
 
