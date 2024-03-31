@@ -1,8 +1,8 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/R8CIO1DZ2b8" target="_blank">
-      <img src="https://github.com/adrianhajdin/zoom-clone/assets/67959015/f09a8421-67d3-45ce-b9bc-a791cdc2774b" alt="Project Banner">
-    </a>
+    
+      <img src="![317983098-f09a8421-67d3-45ce-b9bc-a791cdc2774b](https://github.com/DA-NIN-JA/Meet-Bot/assets/120455759/e918d5e8-991b-4215-bc6b-fbb55b9625ca)" alt="Project Banner">
+    
   
   <br />
 
