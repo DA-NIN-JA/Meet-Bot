@@ -14,7 +14,7 @@
   <h3 align="center">A Zoom Clone</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+     This is a project by [Dhairya Arora](https://github.com/DA-NIN-JA), [Khagesh Sharma](https://github.com/khagesh2409), [Shaurya Gupta](https://github.com/CodebyShaurya), and [Abhay Dixit](https://github.com/abhaydixit07).
     </div>
 </div>
 
