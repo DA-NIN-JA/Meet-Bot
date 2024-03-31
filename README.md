@@ -1,10 +1,9 @@
 <div align="center">
-  <br />
-    
-      ![317983098-f09a8421-67d3-45ce-b9bc-a791cdc2774b](https://github.com/DA-NIN-JA/Meet-Bot/assets/120455759/e918d5e8-991b-4215-bc6b-fbb55b9625ca)
+
+  ![317983098-f09a8421-67d3-45ce-b9bc-a791cdc2774b](https://github.com/DA-NIN-JA/Meet-Bot/assets/120455759/e918d5e8-991b-4215-bc6b-fbb55b9625ca)
     
   
-  <br />
+
 
   <div>
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
