@@ -8,7 +8,7 @@ import {
   MessageList,
   MessageInput,
   Thread,
-  streamChat,
+  // streamChat,
   useCreateChatClient,
 } from 'stream-chat-react';
 import { useMutation, useQuery } from "@tanstack/react-query"
@@ -41,26 +41,25 @@ const App: React.FC = () => {
   
 
   if (!client) return <div>Loading...</div>;
-  const createChannel = useMutation({
-    mutationFn: ({
-      name,
-      memberIds,
-      imageUrl,
-    }: {
-      name: string
-      memberIds: string[]
-      imageUrl?: string
-    }) => {
-      if (streamChat == null) throw Error("Not connected")
+  // const createChannel = useMutation({
+  //   mutationFn: ({
+  //     name,
+  //     memberIds,
+  //     imageUrl,
+  //   }: {
+  //     name: string
+  //     memberIds: string[]
+  //     imageUrl?: string
+  //   }) => {
+  //     if (streamChat == null) throw Error("Not connected")
 
-      return streamChat
-        .channel("messaging", crypto.randomUUID(), {
-          name,
-          image: imageUrl,
-          members: [user, ...memberIds],
-        })
-        .create()
-    })}
+  //     return streamChat.channel("messaging", crypto.randomUUID(), {
+  //         name,
+  //         image: imageUrl,
+  //         members: [user, ...memberIds],
+  //       })
+  //       .create()
+  //   })}
   return (
     <Chat client={client}>
       <ChannelList sort={sort} filters={filters} options={options} />
@@ -74,7 +73,7 @@ const App: React.FC = () => {
       </Channel>
     </Chat>
   );
-;
+  };
 
 export default App;
 

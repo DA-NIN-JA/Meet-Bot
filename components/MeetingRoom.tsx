@@ -9,7 +9,7 @@ import {
   SpeakerLayout,
   useCallStateHooks,
 } from '@stream-io/video-react-sdk';
-import Msg from './Message button.tsx'; 
+// import Msg from './Message button.tsx'; 
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Users, LayoutList } from 'lucide-react';
 
@@ -52,10 +52,13 @@ const MeetingRoom = () => {
 
   return (
     <section className="relative h-screen w-full overflow-hidden pt-4 text-white">
+      
       <div className="relative flex size-full items-center justify-center">
+        {/* <Msg/> */}
         <div className=" flex size-full max-w-[1000px] items-center">
+        
           <CallLayout />
-          {/* <Msg/> */}
+          
         </div>
         <div
           className={cn('h-[calc(100vh-86px)] hidden ml-2', {
