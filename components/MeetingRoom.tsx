@@ -3,12 +3,13 @@ import { useState } from 'react';
 import {
   CallControls,
   CallParticipantsList,
-  CallStatsButton,
+  // CallStatsButton,
   CallingState,
   PaginatedGridLayout,
   SpeakerLayout,
   useCallStateHooks,
 } from '@stream-io/video-react-sdk';
+import Msg from './Message button.tsx'; 
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Users, LayoutList } from 'lucide-react';
 
@@ -54,6 +55,7 @@ const MeetingRoom = () => {
       <div className="relative flex size-full items-center justify-center">
         <div className=" flex size-full max-w-[1000px] items-center">
           <CallLayout />
+          {/* <Msg/> */}
         </div>
         <div
           className={cn('h-[calc(100vh-86px)] hidden ml-2', {
@@ -89,6 +91,7 @@ const MeetingRoom = () => {
           </DropdownMenuContent>
         </DropdownMenu>
         {/* <CallStatsButton /> */}
+        
         <button onClick={() => setShowParticipants((prev) => !prev)}>
           <div className=" cursor-pointer rounded-2xl bg-[#19232d] px-4 py-2 hover:bg-[#4c535b]  ">
             <Users size={20} className="text-white" />
